@@ -11,8 +11,8 @@ A read-only workflow for turning aggregate Yandex Metrica reports into decisions
 ## Install in Hermes
 
 ```bash
-hermes skills tap add pavelnasuta/yandex-metrica-analytics-full-full-skill
-hermes skills install pavelnasuta/yandex-metrica-analytics-full-full-skill/skills/yandex-metrica-analytics-full
+hermes skills tap add pavelnasuta/yandex-metrica-analytics-full-skill
+hermes skills install pavelnasuta/yandex-metrica-analytics-full-skill/skills/yandex-metrica-analytics-full
 ```
 
 The canonical workflow is `skills/yandex-metrica-analytics-full/SKILL.md`. Thin adapters for Claude Code, Codex, and generic `AGENTS.md` users point to the same workflow.
@@ -43,7 +43,7 @@ python3 skills/yandex-metrica-analytics-full/scripts/metrica_read.py --help
 
 ## Support
 
-Report bugs or request improvements through [GitHub Issues](https://github.com/pavelnasuta/yandex-metrica-analytics-full-full-skill/issues).
+Report bugs or request improvements through [GitHub Issues](https://github.com/pavelnasuta/yandex-metrica-analytics-full-skill/issues).
 
 ## Release notes
 
